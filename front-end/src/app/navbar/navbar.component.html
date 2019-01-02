@@ -1,0 +1,16 @@
+<nav>
+  <div class="nav-wrapper indigo">
+    <a href="#" class="brand-logo">Amritsar Today</a>
+    <a href="#" class="sidenav-trigger" data-target="mobile-links">
+      <i class="material-icons">menu</i>
+    </a>
+    <ul id="nav-mobile" class="right hide-on-med-and-down">
+      <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/']">Home</a></li>
+      <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/about']">About</a></li>
+    </ul>
+  </div>
+</nav>
+<ul class="sidenav" id="mobile-links">
+  <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/']">Home</a></li>
+  <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/about']">About</a></li>
+</ul>
