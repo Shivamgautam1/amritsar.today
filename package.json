@@ -1,0 +1,30 @@
+{
+  "name": "amritsar.today",
+  "version": "1.0.0",
+  "description": "Real time environmental data for amritsar city",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivamgautam1/amritsar.today.git"
+  },
+  "author": "Shivam Gautam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shivamgautam1/amritsar.today/issues"
+  },
+  "homepage": "https://github.com/Shivamgautam1/amritsar.today#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "body-parser": "*",
+    "cors": "*",
+    "node-datetime": "^2.1.2",
+    "nodemailer": "^4.6.8",
+    "randomstring": "^1.1.5",
+    "socket.io": "^2.1.1"
+  }
+}
